@@ -1,0 +1,1 @@
+az vm extension set --resource-group demoRG --vm-name LinuxVM --name customScript --publisher Microsoft.Azure.Extensions --settings customscript.json
